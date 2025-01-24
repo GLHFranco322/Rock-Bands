@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node --env-file=.env --watch ./bin/www"
+    "start": "nodemon --require dotenv/config ./bin/www"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
